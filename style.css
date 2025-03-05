@@ -1,0 +1,172 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e8e); /* Gradient màu hồng */
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+    padding: 20px 0;
+    background: rgba(255, 255, 255, 0.1); /* Làm mờ phần trên */
+}
+
+.header-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcccb; /* Màu hồng nhạt hơn khi hover */
+}
+
+.header-hero {
+    padding: 150px 0;
+    text-align: center;
+}
+
+.header-hero h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header-hero p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.header-hero .btn {
+    background: #fff;
+    color: #ff6b6b;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.header-hero .btn:hover {
+    background: #ffcccb; /* Màu hồng nhạt hơn khi hover */
+    color: #fff;
+}
+
+/* Các phần còn lại giữ nguyên */
+.about {
+    padding: 80px 0;
+    text-align: center;
+    background: #fff;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #ff6b6b;
+}
+
+.about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+
+.services {
+    background: #fff5f5;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #ff6b6b;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #ff6b6b;
+}
+
+.service-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+footer {
+    background: #ff6b6b;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
